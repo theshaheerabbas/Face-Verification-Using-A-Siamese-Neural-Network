@@ -20,11 +20,11 @@ The network is trained using the BinaryCrossLossEntropy function, which encourag
 The application provides a real-time verification mode that captures images from a webcam and performs facial verification on the fly.
 
 ## Requirements
-Python 3.x
-TensorFlow
-Keras
-OpenCV
-Kivy
+Python 3.x  
+TensorFlow  
+Keras  
+OpenCV  
+Kivy  
 
 ## Usage
 Install the required dependencies using pip install -r requirements.txt. Train the Siamese Neural Network by running the training script train.py. Provide the dataset containing pairs of positive and negative images for training. Once the model is trained, you can run the application using python app.py. The application will open a GUI window showing the webcam feed. Position your face within the camera view and click the "Verify" button to compare your face with the input image. The application will display the verification result.
